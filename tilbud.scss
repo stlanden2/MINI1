@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i');
+
+$baseFont: 'Roboto', sans-serif;
+
+@mixin aStyling() {
+    color: black;
+    text-decoration: none;
+    font-family: $baseFont;
+}
+
+a {
+    @include aStyling;
+    transition: 0.5s;
+    
+    &:hover {
+        opacity: 0.5;
+    }
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 100%;
+    margin-bottom: 40px;
+    
+    nav {
+        width: 70%;
+        margin: 0 auto;
+        padding: 15px 0px;
+        overflow: hidden;
+        
+        div:nth-child(1) {
+            float: left;
+        }
+        
+        div:nth-child(2) {
+            float: right;
+            
+            a {
+                padding: 0px 10px;
+            }
+        }
+    }
+    
+    #imageContainer {
+        background-image: url(img/jumbotronbackground.jpg);
+        background-size: 100%;
+        background-position: 0% 27%;
+        background-repeat: no-repeat;
+        
+        div {
+            width: 70%;
+            margin: 0 auto;
+            padding: 80px 0px;
+            
+            h1 {
+                font-family: $baseFont;
+                font-size: 40px;
+                margin-bottom: 20px;
+            }
+            
+            p {
+                font-family: $baseFont;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+main {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+    article {
+        flex-basis: 45%;
+        margin: 20px 0px;
+        
+        img {
+            width: 100%;
+        }
+        
+        h2 {
+            font-size: 30px;
+            font-family: $baseFont;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            font-size: 16px;
+            font-family: $baseFont;
+        }
+    }
+}
