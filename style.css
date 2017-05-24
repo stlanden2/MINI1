@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i");
+/* line 11, C:/V3/MINI1/style.scss */
+a {
+  color: black;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif; }
+
+/* line 15, C:/V3/MINI1/style.scss */
+* {
+  margin: 0px;
+  padding: 0px; }
+
+/* line 20, C:/V3/MINI1/style.scss */
+header {
+  width: 100%; }
+  /* line 23, C:/V3/MINI1/style.scss */
+  header nav {
+    width: 70%;
+    margin: 0 auto;
+    padding: 15px 0px;
+    overflow: hidden; }
+    /* line 29, C:/V3/MINI1/style.scss */
+    header nav div:nth-child(1) {
+      float: left; }
+    /* line 33, C:/V3/MINI1/style.scss */
+    header nav div:nth-child(2) {
+      float: right; }
+      /* line 36, C:/V3/MINI1/style.scss */
+      header nav div:nth-child(2) a {
+        padding: 0px 10px; }
+  /* line 42, C:/V3/MINI1/style.scss */
+  header #imageContainer {
+    background-image: url(img/jumbotronbackground.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat; }
+    /* line 47, C:/V3/MINI1/style.scss */
+    header #imageContainer div {
+      width: 70%;
+      margin: 0 auto;
+      padding: 80px 0px; }
+      /* line 52, C:/V3/MINI1/style.scss */
+      header #imageContainer div h1 {
+        font-family: "Roboto", sans-serif;
+        font-size: 40px;
+        margin-bottom: 20px; }
+      /* line 58, C:/V3/MINI1/style.scss */
+      header #imageContainer div p {
+        font-family: "Roboto", sans-serif;
+        font-size: 20px; }
+
+/* line 66, C:/V3/MINI1/style.scss */
+main {
+  width: 70%;
+  padding: 30px 0px;
+  margin: 0 auto;
+  display: flex; }
+  /* line 72, C:/V3/MINI1/style.scss */
+  main article {
+    flex: 1; }
+    /* line 75, C:/V3/MINI1/style.scss */
+    main article img {
+      width: 100%;
+      margin-bottom: 20px; }
+    /* line 80, C:/V3/MINI1/style.scss */
+    main article h2 {
+      font-family: "Roboto", sans-serif;
+      font-size: 30px;
+      margin-bottom: 15px; }
+    /* line 86, C:/V3/MINI1/style.scss */
+    main article p {
+      font-family: "Roboto", sans-serif;
+      margin-bottom: 15px; }
+  /* line 92, C:/V3/MINI1/style.scss */
+  main article:nth-child(2) {
+    padding: 0px 20px; }
+
+/*# sourceMappingURL=style.css.map */
