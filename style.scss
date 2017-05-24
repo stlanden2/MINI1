@@ -10,6 +10,11 @@ $baseFont: 'Roboto', sans-serif;
 
 a {
     @include aStyling;
+    transition: 0.5s;
+    
+    &:hover {
+        opacity: 0.5;
+    }
 }
 
 * {
@@ -92,9 +97,10 @@ main {
         
         button{
             background-color: white;
-            padding: 3px 8px;
-            border: 1px solid grey;
+            padding: 6px 11px;
+            border: 1px solid #eee;
             border-radius: 4px;
+            font-size: 16px;
         }
     }
     
@@ -106,5 +112,5 @@ main {
 footer{
     font-family: $baseFont;
     text-align: center;
-    
+    margin-bottom: 40px;
 }
